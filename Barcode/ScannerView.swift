@@ -34,7 +34,7 @@ struct ScannerView: UIViewControllerRepresentable {
         }
         
         func didSurface(error: CameraError) {
-            print(error.rawValue)
+            print("")
         }
         
     }
